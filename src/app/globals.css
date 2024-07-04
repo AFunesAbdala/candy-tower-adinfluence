@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(#EFE8FE, #FFF0F8);
+  scrollbar-color: #4F2F8E transparent;
+}
+
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  src: url('../../public/font/Muli-Regular.ttf') format('ttf');
+}
+
