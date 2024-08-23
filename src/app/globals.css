@@ -1,9 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap');
 
 body {
-  background: linear-gradient(#EFE8FE, #FFF0F8);
+  background: #F2F7FF;
   scrollbar-color: #4F2F8E transparent;
 }
 
@@ -11,5 +12,10 @@ body {
   font-family: 'Muli';
   font-style: normal;
   src: url('../../public/font/Muli-Regular.ttf') format('ttf');
+}
+
+.balooBold{
+  font-family: 'Baloo 2', sans-serif;
+  font-weight: 600;
 }
 

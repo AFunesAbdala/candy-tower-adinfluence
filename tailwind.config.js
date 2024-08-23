@@ -9,14 +9,22 @@ module.exports = {
     extend: {
       colors: {
         'purpleCandy': '#4F2F8E',
-        'pinkCandy': '#E072A8'
+        'lightPurpleCandy': "#E6E5FF",
+        'pinkCandy': '#E072A8',
+        'lightPinkCandy': "#FFF0F7",
+        'darkPinkCandy': "#C7377D",
+        'darkGrey': "#1E1E1E",
+        'lightGrey': "#7D7D7D"
       },
       fontFamily: {
-        'Muli' : ['Muli', 'sans-serif']
+        'Muli': ['Muli', 'sans-serif'],
+        'Baloo': ['Baloo', 'sans-serif']
       },
       boxShadow: {
-        'pinkInner': 'inset 0 -5px 10px 0 rgba(224, 114, 168, 0.5)',
-        'greyInner': 'inset 0 -5px 10px 0 rgba(0, 0, 0, 0.15)',
+        'darkShadowPink' : '4px 4px 0px #C7377D',
+        'darkShadowGrey' : '4px 4px 0px #1E1E1E',
+        'darkShadowLightGrey' : '4px 4px 0px #7D7D7D',
+        'darkShadowRed' : '3px 3px 0px #D62020'
       }
     },
   },
